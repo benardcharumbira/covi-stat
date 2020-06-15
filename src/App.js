@@ -33,6 +33,10 @@ class App extends React.Component {
         <Cards data={data} />
         <CountryPicker handleCountryChange={this.handleCountryChange} />
         <Chart data={data} country={country} />
+
+        <footer>
+          Disclaimer: Daily statistics obtained from the Covid 19 MathDro API
+        </footer>
       </div>
     );
   }

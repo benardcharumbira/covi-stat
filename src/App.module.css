@@ -22,6 +22,14 @@ body {
   font-weight: 700;
 }
 
+footer {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  color: red;
+  font-size: 18px;
+}
+
 @media only screen and (max-width: 770px) {
   .container {
     margin: 0 10%;
@@ -29,5 +37,10 @@ body {
 
   .image {
     width: 100%;
+  }
+
+  footer {
+    text-align: center;
+    font-size: 14px;
   }
 }
