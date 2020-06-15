@@ -1,0 +1,33 @@
+.container {
+  margin: 50px 0;
+}
+
+.card {
+  margin: 0 2% !important;
+}
+
+.infected {
+  /* border-bottom: 10px solid rgb(0, 0, 255, 0.5); */
+  font-weight: 700;
+  color: rgb(0, 0, 255, 0.5);
+  text-transform: uppercase;
+}
+
+.recovered {
+  /* border-bottom: 10px solid rgb(0, 255, 0, 0.5); */
+  font-weight: 700;
+  color: rgb(0, 255, 0, 0.5);
+  text-transform: uppercase;
+}
+
+.deaths {
+  font-weight: 700;
+  color: rgb(255, 0, 0, 0.5);
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 770px) {
+  .card {
+    margin: 2% 0 !important;
+  }
+}
