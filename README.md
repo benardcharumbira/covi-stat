@@ -1,5 +1,7 @@
 ## Corona Virus Statistic Tracker
 
+Demo:  https://benardcharumbira.github.io/covi-stat/.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
